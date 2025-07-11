@@ -1,0 +1,2789 @@
+{
+  "intents": [
+    {
+      "tag": "jadwal_kuliah",
+      "patterns": [
+        "Bagaimana cara melihat jadwal kuliah?",
+        "Jadwal kuliah",
+        "Kapan jadwal kuliah saya?",
+        "Lihat jadwal kuliah"
+      ],
+      "responses": [
+        "Jadwal kuliah dapat dilihat di portal akademik pada Website https://baak.gunadarma.ac.id/."
+      ]
+    },
+    {
+      "tag": "proses_krs",
+      "patterns": [
+        "Bagaimana Isia KRS?",
+        "Isi KRS",
+        "Cara KRS",
+        "Langkah-langkah KRS"
+      ],
+      "responses": [
+        "Buka Website https://studentsite.gunadarma.ac.id/ > Login > KRS > Isi KRS"
+      ]
+    },
+    {
+      "tag": "cek_nilai",
+      "patterns": [
+        "Cara cek nilai semester",
+        "Bagaimana cara melihat nilai?",
+        "Cek nilai",
+        "Nilai semester"
+      ],
+      "responses": [
+        "Buka Website https://studentsite.gunadarma.ac.id/ > Login > Akademik > Buka Modul Akademik > Rangkuman Nilai"
+      ]
+    },
+    {
+      "tag": "pembayaran_ukt",
+      "patterns": [
+        "Cara pembayaran UKT semester",
+        "Bagaimana cara membayar UKT?",
+        "Pembayaran UKT",
+        "Bayar UKT semester"
+      ],
+      "responses": [
+        "Buka Website https://studentsite.gunadarma.ac.id/ > Login > Blanko Pembayaran > Pilih Pembayaran Semester Selanjutnya atau Saat Ini"
+      ]
+    },
+    {
+      "tag": "user_learned",
+      "patterns": [
+        "asdasd"
+      ],
+      "responses": [
+        "Mohon maaf saya tidak mengerti, tolong berikan pertanyaan dengan benar"
+      ]
+    },
+    {
+      "tag": "apa_itu_krs",
+      "patterns": [
+        "Apa itu KRS?",
+        "KRS itu apa?",
+        "Pengertian KRS",
+        "KRS adalah"
+      ],
+      "responses": [
+        "KRS adalah Kartu Rencana Studi, yaitu formulir untuk memilih mata kuliah yang akan diambil pada semester tertentu."
+      ]
+    },
+    {
+      "tag": "apakah_krs_perlu",
+      "patterns": [
+        "Apakah KRS itu perlu?",
+        "Kenapa harus isi KRS?",
+        "KRS wajib atau tidak?",
+        "KRS penting atau tidak?"
+      ],
+      "responses": [
+        "KRS sangat penting karena tanpa mengisi KRS, mahasiswa tidak dapat mengikuti perkuliahan dan ujian pada semester tersebut."
+      ]
+    },
+    {
+      "tag": "apa_itu_ukt",
+      "patterns": [
+        "Apa itu UKT?",
+        "UKT itu apa?",
+        "Pengertian UKT",
+        "UKT adalah"
+      ],
+      "responses": [
+        "UKT adalah Uang Kuliah Tunggal, yaitu sistem pembayaran kuliah yang dibayarkan setiap semester."
+      ]
+    },
+    {
+      "tag": "apa_itu_sks",
+      "patterns": [
+        "Apa itu SKS?",
+        "SKS itu apa?",
+        "Pengertian SKS",
+        "SKS adalah"
+      ],
+      "responses": [
+        "SKS adalah Satuan Kredit Semester, yaitu satuan yang digunakan untuk menentukan beban studi mahasiswa dalam satu semester."
+      ]
+    },
+    {
+      "tag": "apa_itu_transkrip",
+      "patterns": [
+        "Apa itu transkrip nilai?",
+        "Transkrip nilai itu apa?",
+        "Pengertian transkrip nilai",
+        "Transkrip nilai adalah"
+      ],
+      "responses": [
+        "Transkrip nilai adalah dokumen resmi yang berisi daftar nilai seluruh mata kuliah yang telah diambil oleh mahasiswa selama studi."
+      ]
+    },
+    {
+      "tag": "syarat_sidang",
+      "patterns": [
+        "Apa syarat sidang skripsi?",
+        "Syarat sidang skripsi",
+        "Bagaimana syarat sidang?",
+        "Syarat mengikuti sidang"
+      ],
+      "responses": [
+        "Syarat sidang skripsi biasanya meliputi: telah lulus semua mata kuliah, telah menyelesaikan skripsi, dan memenuhi administrasi akademik. Silakan cek ke bagian akademik kampus untuk detailnya."
+      ]
+    },
+    {
+      "tag": "cara_daftar_ulang",
+      "patterns": [
+        "Bagaimana cara daftar ulang?",
+        "Cara daftar ulang mahasiswa",
+        "Proses daftar ulang",
+        "Daftar ulang semester"
+      ],
+      "responses": [
+        "Daftar ulang dilakukan dengan membayar UKT dan mengisi KRS pada portal akademik sesuai jadwal yang ditentukan."
+      ]
+    },
+    {
+      "tag": "apa_itu_nim",
+      "patterns": [
+        "Apa itu NIM?",
+        "NIM itu apa?",
+        "Pengertian NIM",
+        "NIM adalah"
+      ],
+      "responses": [
+        "NIM adalah Nomor Induk Mahasiswa, yaitu nomor identitas unik yang diberikan kepada setiap mahasiswa."
+      ]
+    },
+    {
+      "tag": "apa_itu_nidn",
+      "patterns": [
+        "Apa itu NIDN?",
+        "NIDN itu apa?",
+        "Pengertian NIDN",
+        "NIDN adalah"
+      ],
+      "responses": [
+        "NIDN adalah Nomor Induk Dosen Nasional, yaitu nomor identitas dosen di Indonesia."
+      ]
+    },
+    {
+      "tag": "apa_itu_ipk",
+      "patterns": [
+        "Apa itu IPK?",
+        "IPK itu apa?",
+        "Pengertian IPK",
+        "IPK adalah"
+      ],
+      "responses": [
+        "IPK adalah Indeks Prestasi Kumulatif, yaitu nilai rata-rata dari seluruh mata kuliah yang telah diambil mahasiswa."
+      ]
+    },
+    {
+      "tag": "apa_itu_ips",
+      "patterns": [
+        "Apa itu IPS?",
+        "IPS itu apa?",
+        "Pengertian IPS",
+        "IPS adalah"
+      ],
+      "responses": [
+        "IPS adalah Indeks Prestasi Semester, yaitu nilai rata-rata dari mata kuliah yang diambil pada satu semester."
+      ]
+    },
+    {
+      "tag": "apa_itu_skripsi",
+      "patterns": [
+        "Apa itu skripsi?",
+        "Skripsi itu apa?",
+        "Pengertian skripsi",
+        "Skripsi adalah"
+      ],
+      "responses": [
+        "Skripsi adalah karya tulis ilmiah yang dibuat oleh mahasiswa sebagai syarat kelulusan program sarjana."
+      ]
+    },
+    {
+      "tag": "apa_itu_ta",
+      "patterns": [
+        "Apa itu TA?",
+        "TA itu apa?",
+        "Pengertian TA",
+        "TA adalah"
+      ],
+      "responses": [
+        "TA adalah Tugas Akhir, yaitu karya ilmiah yang dibuat mahasiswa sebagai syarat kelulusan, biasanya untuk program diploma."
+      ]
+    },
+    {
+      "tag": "apa_itu_khs",
+      "patterns": [
+        "Apa itu KHS?",
+        "KHS itu apa?",
+        "Pengertian KHS",
+        "KHS adalah"
+      ],
+      "responses": [
+        "KHS adalah Kartu Hasil Studi, yaitu dokumen yang berisi nilai-nilai mata kuliah yang diambil mahasiswa pada satu semester."
+      ]
+    },
+    {
+      "tag": "apa_itu_dosen_wali",
+      "patterns": [
+        "Apa itu dosen wali?",
+        "Dosen wali itu siapa?",
+        "Pengertian dosen wali",
+        "Dosen wali adalah"
+      ],
+      "responses": [
+        "Dosen wali adalah dosen yang membimbing dan membantu mahasiswa dalam masalah akademik selama masa studi."
+      ]
+    },
+    {
+      "tag": "apa_itu_kaprodi",
+      "patterns": [
+        "Apa itu kaprodi?",
+        "Kaprodi itu siapa?",
+        "Pengertian kaprodi",
+        "Kaprodi adalah"
+      ],
+      "responses": [
+        "Kaprodi adalah Kepala Program Studi, yaitu dosen yang memimpin dan bertanggung jawab atas jalannya program studi."
+      ]
+    },
+    {
+      "tag": "apa_itu_fakultas",
+      "patterns": [
+        "Apa itu fakultas?",
+        "Fakultas itu apa?",
+        "Pengertian fakultas",
+        "Fakultas adalah"
+      ],
+      "responses": [
+        "Fakultas adalah bagian dari universitas yang terdiri dari beberapa program studi yang sejenis."
+      ]
+    },
+    {
+      "tag": "apa_itu_jurusan",
+      "patterns": [
+        "Apa itu jurusan?",
+        "Jurusan itu apa?",
+        "Pengertian jurusan",
+        "Jurusan adalah"
+      ],
+      "responses": [
+        "Jurusan adalah bidang studi atau program pendidikan yang dipilih oleh mahasiswa di perguruan tinggi."
+      ]
+    },
+    {
+      "tag": "apa_itu_semester",
+      "patterns": [
+        "Apa itu semester?",
+        "Semester itu apa?",
+        "Pengertian semester",
+        "Semester adalah"
+      ],
+      "responses": [
+        "Semester adalah satuan waktu perkuliahan di perguruan tinggi, biasanya berlangsung selama 6 bulan."
+      ]
+    },
+    {
+      "tag": "apa_itu_mata_kuliah",
+      "patterns": [
+        "Apa itu mata kuliah?",
+        "Mata kuliah itu apa?",
+        "Pengertian mata kuliah",
+        "Mata kuliah adalah"
+      ],
+      "responses": [
+        "Mata kuliah adalah unit pembelajaran yang diajarkan di perguruan tinggi dan harus diambil oleh mahasiswa."
+      ]
+    },
+    {
+      "tag": "apa_itu_absensi",
+      "patterns": [
+        "Apa itu absensi?",
+        "Absensi itu apa?",
+        "Pengertian absensi",
+        "Absensi adalah"
+      ],
+      "responses": [
+        "Absensi adalah daftar kehadiran mahasiswa dalam setiap perkuliahan."
+      ]
+    },
+    {
+      "tag": "apa_itu_modul",
+      "patterns": [
+        "Apa itu modul?",
+        "Modul itu apa?",
+        "Pengertian modul",
+        "Modul adalah"
+      ],
+      "responses": [
+        "Modul adalah bahan ajar atau materi pembelajaran yang digunakan dalam perkuliahan."
+      ]
+    },
+    {
+      "tag": "apa_itu_elearning",
+      "patterns": [
+        "Apa itu e-learning?",
+        "E-learning itu apa?",
+        "Pengertian e-learning",
+        "E-learning adalah"
+      ],
+      "responses": [
+        "E-learning adalah sistem pembelajaran yang dilakukan secara daring (online) melalui platform digital."
+      ]
+    },
+    {
+      "tag": "apa_itu_uts",
+      "patterns": [
+        "Apa itu UTS?",
+        "UTS itu apa?",
+        "Pengertian UTS",
+        "UTS adalah"
+      ],
+      "responses": [
+        "UTS adalah Ujian Tengah Semester, yaitu ujian yang dilaksanakan di pertengahan semester untuk mengukur pemahaman mahasiswa."
+      ]
+    },
+    {
+      "tag": "apa_itu_uas",
+      "patterns": [
+        "Apa itu UAS?",
+        "UAS itu apa?",
+        "Pengertian UAS",
+        "UAS adalah"
+      ],
+      "responses": [
+        "UAS adalah Ujian Akhir Semester, yaitu ujian yang dilaksanakan di akhir semester untuk menilai hasil belajar mahasiswa."
+      ]
+    },
+    {
+      "tag": "apa_itu_praktikum",
+      "patterns": [
+        "Apa itu praktikum?",
+        "Praktikum itu apa?",
+        "Pengertian praktikum",
+        "Praktikum adalah"
+      ],
+      "responses": [
+        "Praktikum adalah kegiatan pembelajaran yang dilakukan di laboratorium atau tempat praktik untuk memperdalam pemahaman materi."
+      ]
+    },
+    {
+      "tag": "apa_itu_beasiswa",
+      "patterns": [
+        "Apa itu beasiswa?",
+        "Beasiswa itu apa?",
+        "Pengertian beasiswa",
+        "Beasiswa adalah"
+      ],
+      "responses": [
+        "Beasiswa adalah bantuan dana pendidikan yang diberikan kepada mahasiswa berdasarkan prestasi atau kebutuhan ekonomi."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_beasiswa",
+      "patterns": [
+        "Bagaimana cara mengurus beasiswa?",
+        "Cara daftar beasiswa",
+        "Proses pengajuan beasiswa"
+      ],
+      "responses": [
+        "Untuk mengurus beasiswa, mahasiswa harus memenuhi syarat yang ditentukan dan mengajukan permohonan ke bagian akademik atau melalui portal kampus."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_cuti",
+      "patterns": [
+        "Bagaimana cara mengurus cuti kuliah?",
+        "Cara cuti kuliah",
+        "Proses pengajuan cuti"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengurus cuti kuliah dengan mengisi formulir cuti dan mengajukan ke bagian akademik kampus."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_pindah_jurusan",
+      "patterns": [
+        "Bagaimana cara pindah jurusan?",
+        "Cara mengurus pindah jurusan",
+        "Proses pindah jurusan"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengajukan pindah jurusan dengan memenuhi syarat tertentu dan mengajukan permohonan ke bagian akademik."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_keringanan_ukt",
+      "patterns": [
+        "Bagaimana cara mengurus keringanan UKT?",
+        "Cara keringanan UKT",
+        "Proses pengajuan keringanan UKT"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengajukan keringanan UKT dengan melampirkan dokumen pendukung dan mengajukan ke bagian keuangan kampus."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_perpanjangan_studi",
+      "patterns": [
+        "Bagaimana cara mengurus perpanjangan studi?",
+        "Cara perpanjangan studi",
+        "Proses perpanjangan masa studi"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengajukan perpanjangan studi dengan alasan yang jelas dan mengajukan permohonan ke bagian akademik."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_ijazah",
+      "patterns": [
+        "Bagaimana cara mengambil ijazah?",
+        "Cara pengambilan ijazah",
+        "Proses pengambilan ijazah"
+      ],
+      "responses": [
+        "Pengambilan ijazah dilakukan setelah mahasiswa dinyatakan lulus dan memenuhi semua persyaratan administrasi."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_khs",
+      "patterns": [
+        "Bagaimana cara mengambil KHS?",
+        "Cara pengambilan KHS",
+        "Proses pengambilan KHS"
+      ],
+      "responses": [
+        "KHS dapat diambil di bagian akademik kampus atau diunduh melalui portal akademik."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_transkrip",
+      "patterns": [
+        "Bagaimana cara mengambil transkrip nilai?",
+        "Cara pengambilan transkrip",
+        "Proses pengambilan transkrip"
+      ],
+      "responses": [
+        "Transkrip nilai dapat diambil di bagian akademik kampus atau diunduh melalui portal akademik."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_perbaikan_nilai",
+      "patterns": [
+        "Bagaimana cara perbaikan nilai?",
+        "Cara mengurus perbaikan nilai",
+        "Proses perbaikan nilai"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengajukan perbaikan nilai dengan menghubungi dosen pengampu dan mengikuti prosedur yang berlaku di kampus."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_krs",
+      "patterns": [
+        "Bagaimana cara mengisi KRS?",
+        "Cara isi KRS",
+        "Proses pengisian KRS"
+      ],
+      "responses": [
+        "Pengisian KRS dilakukan secara online melalui portal akademik pada waktu yang telah ditentukan."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_ukt",
+      "patterns": [
+        "Bagaimana cara membayar UKT?",
+        "Cara pembayaran UKT",
+        "Proses pembayaran UKT"
+      ],
+      "responses": [
+        "Pembayaran UKT dilakukan melalui bank yang bekerja sama dengan kampus atau secara online melalui portal akademik."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_uts",
+      "patterns": [
+        "Bagaimana cara mengikuti UTS?",
+        "Cara ikut UTS",
+        "Proses pelaksanaan UTS"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengikuti UTS sesuai jadwal yang telah ditentukan dan memenuhi persyaratan kehadiran."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_uas",
+      "patterns": [
+        "Bagaimana cara mengikuti UAS?",
+        "Cara ikut UAS",
+        "Proses pelaksanaan UAS"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengikuti UAS sesuai jadwal yang telah ditentukan dan memenuhi persyaratan kehadiran."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_praktikum",
+      "patterns": [
+        "Bagaimana cara mengikuti praktikum?",
+        "Cara ikut praktikum",
+        "Proses pelaksanaan praktikum"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengikuti praktikum dengan mendaftar di laboratorium dan memenuhi persyaratan yang ditentukan."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_absensi",
+      "patterns": [
+        "Bagaimana cara mengisi absensi?",
+        "Cara absensi kuliah",
+        "Proses absensi kuliah"
+      ],
+      "responses": [
+        "Absensi kuliah biasanya dilakukan secara manual di kelas atau melalui sistem online yang disediakan kampus."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_modul",
+      "patterns": [
+        "Bagaimana cara mendapatkan modul?",
+        "Cara mendapatkan modul kuliah",
+        "Proses pembagian modul"
+      ],
+      "responses": [
+        "Modul kuliah dapat diperoleh dari dosen pengampu atau diunduh melalui portal akademik."
+      ]
+    },
+    {
+      "tag": "cara_mengurus_elearning",
+      "patterns": [
+        "Bagaimana cara mengakses e-learning?",
+        "Cara akses e-learning",
+        "Proses pembelajaran online"
+      ],
+      "responses": [
+        "E-learning dapat diakses melalui portal kampus dengan menggunakan akun mahasiswa."
+      ]
+    },
+    {
+      "tag": "cara_ajukan_cuti",
+      "patterns": [
+        "Bagaimana cara mengajukan cuti kuliah?",
+        "Cara cuti kuliah",
+        "Proses pengajuan cuti kuliah",
+        "Syarat cuti kuliah"
+      ],
+      "responses": [
+        "Untuk mengajukan cuti kuliah, mahasiswa harus mengisi formulir cuti dan menyerahkannya ke bagian akademik sebelum batas waktu yang ditentukan."
+      ]
+    },
+    {
+      "tag": "syarat_pindah_jurusan",
+      "patterns": [
+        "Apa syarat pindah jurusan?",
+        "Bagaimana cara pindah jurusan?",
+        "Syarat pindah jurusan",
+        "Proses pindah jurusan"
+      ],
+      "responses": [
+        "Syarat pindah jurusan biasanya meliputi: telah menempuh minimal 2 semester, IPK memenuhi syarat, dan mendapat persetujuan dari fakultas. Silakan cek ke bagian akademik untuk detailnya."
+      ]
+    },
+    {
+      "tag": "surat_keterangan_aktif",
+      "patterns": [
+        "Bagaimana cara mengurus surat keterangan aktif kuliah?",
+        "Surat keterangan aktif kuliah",
+        "Cara mendapatkan surat aktif kuliah"
+      ],
+      "responses": [
+        "Surat keterangan aktif kuliah dapat diurus di bagian akademik dengan membawa Kartu Tanda Mahasiswa (KTM) dan bukti pembayaran UKT."
+      ]
+    },
+    {
+      "tag": "semester_pendek",
+      "patterns": [
+        "Apa itu semester pendek?",
+        "Semester pendek itu apa?",
+        "Pengertian semester pendek"
+      ],
+      "responses": [
+        "Semester pendek adalah semester tambahan yang biasanya diadakan pada libur semester untuk memperbaiki nilai atau mengambil mata kuliah tertentu."
+      ]
+    },
+    {
+      "tag": "mengulang_mata_kuliah",
+      "patterns": [
+        "Bagaimana cara mengulang mata kuliah?",
+        "Cara mengulang mata kuliah",
+        "Proses mengulang mata kuliah"
+      ],
+      "responses": [
+        "Mahasiswa dapat mengulang mata kuliah dengan mengisi KRS pada semester berikutnya dan membayar biaya sesuai ketentuan."
+      ]
+    },
+    {
+      "tag": "nilai_d",
+      "patterns": [
+        "Apa itu nilai D?",
+        "Apakah nilai D harus diulang?",
+        "Nilai D di perguruan tinggi"
+      ],
+      "responses": [
+        "Nilai D adalah nilai terendah yang masih dinyatakan lulus, namun sebaiknya diulang jika ingin memperbaiki IPK atau jika menjadi syarat kelulusan."
+      ]
+    },
+    {
+      "tag": "yudisium",
+      "patterns": [
+        "Apa itu yudisium?",
+        "Yudisium itu apa?",
+        "Proses yudisium"
+      ],
+      "responses": [
+        "Yudisium adalah proses penetapan kelulusan mahasiswa setelah memenuhi semua persyaratan akademik dan administrasi."
+      ]
+    },
+    {
+      "tag": "pendaftaran_wisuda",
+      "patterns": [
+        "Bagaimana proses pendaftaran wisuda?",
+        "Cara daftar wisuda",
+        "Syarat wisuda"
+      ],
+      "responses": [
+        "Pendaftaran wisuda dilakukan setelah lulus yudisium dengan mengisi formulir pendaftaran dan melengkapi persyaratan administrasi."
+      ]
+    },
+    {
+      "tag": "kartu_ujian",
+      "patterns": [
+        "Apa itu Kartu Ujian?",
+        "Bagaimana cara mendapatkan Kartu Ujian?",
+        "Kartu Ujian kuliah"
+      ],
+      "responses": [
+        "Kartu Ujian adalah kartu yang digunakan untuk mengikuti ujian. Dapat diunduh dari portal akademik setelah memenuhi persyaratan administrasi."
+      ]
+    },
+    {
+      "tag": "ktm_hilang",
+      "patterns": [
+        "Bagaimana cara mengurus KTM yang hilang?",
+        "KTM hilang",
+        "Mengganti KTM hilang"
+      ],
+      "responses": [
+        "Jika KTM hilang, segera lapor ke bagian akademik dan buat surat kehilangan dari kepolisian untuk proses penggantian."
+      ]
+    },
+    {
+      "tag": "perubahan_data_mahasiswa",
+      "patterns": [
+        "Bagaimana cara mengurus perubahan data mahasiswa?",
+        "Perubahan data mahasiswa",
+        "Cara update data mahasiswa"
+      ],
+      "responses": [
+        "Perubahan data mahasiswa dapat diajukan ke bagian akademik dengan membawa dokumen pendukung seperti KTP atau KK."
+      ]
+    },
+    {
+      "tag": "surat_pindah_kampus",
+      "patterns": [
+        "Bagaimana cara mengurus surat pindah kampus?",
+        "Surat pindah kampus",
+        "Proses pindah kampus"
+      ],
+      "responses": [
+        "Surat pindah kampus dapat diurus di bagian akademik dengan mengisi formulir dan memenuhi persyaratan administrasi."
+      ]
+    },
+    {
+      "tag": "dosen_pembimbing",
+      "patterns": [
+        "Apa itu dosen pembimbing akademik?",
+        "Dosen pembimbing akademik",
+        "Siapa dosen pembimbing saya?"
+      ],
+      "responses": [
+        "Dosen pembimbing akademik adalah dosen yang ditunjuk untuk membimbing mahasiswa dalam permasalahan akademik selama studi."
+      ]
+    },
+    {
+      "tag": "konsultasi_dosen_wali",
+      "patterns": [
+        "Bagaimana cara konsultasi dengan dosen wali?",
+        "Konsultasi dosen wali",
+        "Cara bertemu dosen wali"
+      ],
+      "responses": [
+        "Konsultasi dengan dosen wali dapat dilakukan dengan membuat janji melalui email atau datang langsung ke ruang dosen sesuai jadwal."
+      ]
+    },
+    {
+      "tag": "topik_skripsi",
+      "patterns": [
+        "Bagaimana cara mengajukan topik skripsi?",
+        "Pengajuan topik skripsi",
+        "Cara memilih topik skripsi"
+      ],
+      "responses": [
+        "Pengajuan topik skripsi dilakukan dengan mengisi formulir pengajuan dan berkonsultasi dengan dosen pembimbing."
+      ]
+    },
+    {
+      "tag": "denda_ukt",
+      "patterns": [
+        "Bagaimana cara membayar denda keterlambatan UKT?",
+        "Denda keterlambatan UKT",
+        "Pembayaran denda UKT"
+      ],
+      "responses": [
+        "Pembayaran denda keterlambatan UKT dilakukan di bagian keuangan kampus atau melalui portal pembayaran online."
+      ]
+    },
+    {
+      "tag": "surat_keterangan_lulus",
+      "patterns": [
+        "Bagaimana cara mengurus surat keterangan lulus?",
+        "Surat keterangan lulus",
+        "Cara mendapatkan surat lulus"
+      ],
+      "responses": [
+        "Surat keterangan lulus dapat diurus di bagian akademik setelah dinyatakan lulus dan memenuhi semua persyaratan."
+      ]
+    },
+    {
+      "tag": "surat_rekomendasi_dosen",
+      "patterns": [
+        "Bagaimana cara mengurus surat rekomendasi dosen?",
+        "Surat rekomendasi dosen",
+        "Cara mendapatkan surat rekomendasi"
+      ],
+      "responses": [
+        "Surat rekomendasi dosen dapat diajukan dengan menghubungi dosen terkait dan melengkapi dokumen yang diperlukan."
+      ]
+    },
+    {
+      "tag": "surat_izin_penelitian",
+      "patterns": [
+        "Bagaimana cara mengurus surat izin penelitian?",
+        "Surat izin penelitian",
+        "Cara mendapatkan surat izin penelitian"
+      ],
+      "responses": [
+        "Surat izin penelitian dapat diurus di bagian akademik dengan membawa proposal penelitian dan surat pengantar dari dosen pembimbing."
+      ]
+    },
+    {
+      "tag": "perpustakaan",
+      "patterns": [
+        "Bagaimana cara menggunakan perpustakaan kampus?",
+        "Cara meminjam buku di perpustakaan",
+        "Perpustakaan kampus"
+      ],
+      "responses": [
+        "Untuk menggunakan perpustakaan kampus, mahasiswa harus memiliki KTM dan mengikuti prosedur peminjaman buku yang berlaku."
+      ]
+    },
+    {
+      "tag": "akses_wifi",
+      "patterns": [
+        "Bagaimana cara mengakses wifi kampus?",
+        "Akses wifi kampus",
+        "Wifi di kampus"
+      ],
+      "responses": [
+        "Akses wifi kampus dapat dilakukan dengan login menggunakan NIM dan password pada jaringan wifi yang disediakan kampus."
+      ]
+    },
+    {
+      "tag": "ukm",
+      "patterns": [
+        "Apa itu UKM?",
+        "Bagaimana cara bergabung dengan UKM?",
+        "Unit Kegiatan Mahasiswa"
+      ],
+      "responses": [
+        "UKM adalah Unit Kegiatan Mahasiswa, yaitu organisasi kemahasiswaan di kampus. Untuk bergabung, silakan daftar saat open recruitment atau hubungi pengurus UKM."
+      ]
+    },
+    {
+      "tag": "bem",
+      "patterns": [
+        "Apa itu BEM?",
+        "Bagaimana cara menjadi anggota BEM?",
+        "Badan Eksekutif Mahasiswa"
+      ],
+      "responses": [
+        "BEM adalah Badan Eksekutif Mahasiswa, organisasi mahasiswa di tingkat universitas atau fakultas. Untuk menjadi anggota, ikuti seleksi yang diadakan setiap periode."
+      ]
+    },
+    {
+      "tag": "ospek",
+      "patterns": [
+        "Apa itu OSPEK?",
+        "Kegiatan OSPEK",
+        "OSPEK di kampus"
+      ],
+      "responses": [
+        "OSPEK adalah Orientasi Studi dan Pengenalan Kampus, kegiatan pengenalan lingkungan kampus bagi mahasiswa baru."
+      ]
+    },
+    {
+      "tag": "reset_password_portal",
+      "patterns": [
+        "Bagaimana cara reset password portal akademik?",
+        "Lupa password portal akademik",
+        "Reset password portal"
+      ],
+      "responses": [
+        "Reset password portal akademik dapat dilakukan melalui fitur lupa password di halaman login portal atau menghubungi helpdesk IT kampus."
+      ]
+    },
+    {
+      "tag": "kalender_akademik",
+      "patterns": [
+        "Bagaimana cara melihat kalender akademik?",
+        "Kalender akademik",
+        "Jadwal akademik"
+      ],
+      "responses": [
+        "Kalender akademik dapat dilihat di website resmi kampus atau portal akademik pada menu kalender akademik."
+      ]
+    },
+    {
+      "tag": "jadwal_libur",
+      "patterns": [
+        "Kapan jadwal libur semester?",
+        "Jadwal libur kuliah",
+        "Libur semester"
+      ],
+      "responses": [
+        "Jadwal libur semester dapat dilihat pada kalender akademik yang diterbitkan oleh kampus setiap tahun."
+      ]
+    },
+    {
+      "tag": "jadwal_1ka01",
+      "patterns": [
+        "jadwal 1ka01",
+        "jadwal kelas 1ka01",
+        "jadwal kuliah 1ka01",
+        "jadwal perkuliahan 1ka01",
+        "jadwal 1 ka 01",
+        "jadwal kelas 1 ka 01"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA01:<br><img src=\"/static/jadwal/1ka01.png\" alt=\"Jadwal 1KA01\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka02",
+      "patterns": [
+        "jadwal 1ka02",
+        "jadwal kelas 1ka02",
+        "jadwal kuliah 1ka02",
+        "jadwal perkuliahan 1ka02",
+        "jadwal 1 ka 02",
+        "jadwal kelas 1 ka 02"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA02:<br><img src=\"/static/jadwal/1ka02.png\" alt=\"Jadwal 1KA02\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka03",
+      "patterns": [
+        "jadwal 1ka03",
+        "jadwal kelas 1ka03",
+        "jadwal kuliah 1ka03",
+        "jadwal perkuliahan 1ka03",
+        "jadwal 1 ka 03",
+        "jadwal kelas 1 ka 03"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA03:<br><img src=\"/static/jadwal/1ka03.png\" alt=\"Jadwal 1KA03\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka04",
+      "patterns": [
+        "jadwal 1ka04",
+        "jadwal kelas 1ka04",
+        "jadwal kuliah 1ka04",
+        "jadwal perkuliahan 1ka04",
+        "jadwal 1 ka 04",
+        "jadwal kelas 1 ka 04"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA04:<br><img src=\"/static/jadwal/1ka04.png\" alt=\"Jadwal 1KA04\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka05",
+      "patterns": [
+        "jadwal 1ka05",
+        "jadwal kelas 1ka05",
+        "jadwal kuliah 1ka05",
+        "jadwal perkuliahan 1ka05",
+        "jadwal 1 ka 05",
+        "jadwal kelas 1 ka 05"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA05:<br><img src=\"/static/jadwal/1ka05.png\" alt=\"Jadwal 1KA05\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka06",
+      "patterns": [
+        "jadwal 1ka06",
+        "jadwal kelas 1ka06",
+        "jadwal kuliah 1ka06",
+        "jadwal perkuliahan 1ka06",
+        "jadwal 1 ka 06",
+        "jadwal kelas 1 ka 06"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA06:<br><img src=\"/static/jadwal/1ka06.png\" alt=\"Jadwal 1KA06\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka07",
+      "patterns": [
+        "jadwal 1ka07",
+        "jadwal kelas 1ka07",
+        "jadwal kuliah 1ka07",
+        "jadwal perkuliahan 1ka07",
+        "jadwal 1 ka 07",
+        "jadwal kelas 1 ka 07"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA07:<br><img src=\"/static/jadwal/1ka07.png\" alt=\"Jadwal 1KA07\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka08",
+      "patterns": [
+        "jadwal 1ka08",
+        "jadwal kelas 1ka08",
+        "jadwal kuliah 1ka08",
+        "jadwal perkuliahan 1ka08",
+        "jadwal 1 ka 08",
+        "jadwal kelas 1 ka 08"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA08:<br><img src=\"/static/jadwal/1ka08.png\" alt=\"Jadwal 1KA08\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka09",
+      "patterns": [
+        "jadwal 1ka09",
+        "jadwal kelas 1ka09",
+        "jadwal kuliah 1ka09",
+        "jadwal perkuliahan 1ka09",
+        "jadwal 1 ka 09",
+        "jadwal kelas 1 ka 09"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA09:<br><img src=\"/static/jadwal/1ka09.png\" alt=\"Jadwal 1KA09\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka10",
+      "patterns": [
+        "jadwal 1ka10",
+        "jadwal kelas 1ka10",
+        "jadwal kuliah 1ka10",
+        "jadwal perkuliahan 1ka10",
+        "jadwal 1 ka 10",
+        "jadwal kelas 1 ka 10"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA10:<br><img src=\"/static/jadwal/1ka10.png\" alt=\"Jadwal 1KA10\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka11",
+      "patterns": [
+        "jadwal 1ka11",
+        "jadwal kelas 1ka11",
+        "jadwal kuliah 1ka11",
+        "jadwal perkuliahan 1ka11",
+        "jadwal 1 ka 11",
+        "jadwal kelas 1 ka 11"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA11:<br><img src=\"/static/jadwal/1ka11.png\" alt=\"Jadwal 1KA11\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka12",
+      "patterns": [
+        "jadwal 1ka12",
+        "jadwal kelas 1ka12",
+        "jadwal kuliah 1ka12",
+        "jadwal perkuliahan 1ka12",
+        "jadwal 1 ka 12",
+        "jadwal kelas 1 ka 12"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA12:<br><img src=\"/static/jadwal/1ka12.png\" alt=\"Jadwal 1KA12\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka13",
+      "patterns": [
+        "jadwal 1ka13",
+        "jadwal kelas 1ka13",
+        "jadwal kuliah 1ka13",
+        "jadwal perkuliahan 1ka13",
+        "jadwal 1 ka 13",
+        "jadwal kelas 1 ka 13"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA13:<br><img src=\"/static/jadwal/1ka13.png\" alt=\"Jadwal 1KA13\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka14",
+      "patterns": [
+        "jadwal 1ka14",
+        "jadwal kelas 1ka14",
+        "jadwal kuliah 1ka14",
+        "jadwal perkuliahan 1ka14",
+        "jadwal 1 ka 14",
+        "jadwal kelas 1 ka 14"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA14:<br><img src=\"/static/jadwal/1ka14.png\" alt=\"Jadwal 1KA14\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka15",
+      "patterns": [
+        "jadwal 1ka15",
+        "jadwal kelas 1ka15",
+        "jadwal kuliah 1ka15",
+        "jadwal perkuliahan 1ka15",
+        "jadwal 1 ka 15",
+        "jadwal kelas 1 ka 15"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA15:<br><img src=\"/static/jadwal/1ka15.png\" alt=\"Jadwal 1KA15\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka16",
+      "patterns": [
+        "jadwal 1ka16",
+        "jadwal kelas 1ka16",
+        "jadwal kuliah 1ka16",
+        "jadwal perkuliahan 1ka16",
+        "jadwal 1 ka 16",
+        "jadwal kelas 1 ka 16"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA16:<br><img src=\"/static/jadwal/1ka16.png\" alt=\"Jadwal 1KA16\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka17",
+      "patterns": [
+        "jadwal 1ka17",
+        "jadwal kelas 1ka17",
+        "jadwal kuliah 1ka17",
+        "jadwal perkuliahan 1ka17",
+        "jadwal 1 ka 17",
+        "jadwal kelas 1 ka 17"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA17:<br><img src=\"/static/jadwal/1ka17.png\" alt=\"Jadwal 1KA17\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka18",
+      "patterns": [
+        "jadwal 1ka18",
+        "jadwal kelas 1ka18",
+        "jadwal kuliah 1ka18",
+        "jadwal perkuliahan 1ka18",
+        "jadwal 1 ka 18",
+        "jadwal kelas 1 ka 18"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA18:<br><img src=\"/static/jadwal/1ka18.png\" alt=\"Jadwal 1KA18\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka19",
+      "patterns": [
+        "jadwal 1ka19",
+        "jadwal kelas 1ka19",
+        "jadwal kuliah 1ka19",
+        "jadwal perkuliahan 1ka19",
+        "jadwal 1 ka 19",
+        "jadwal kelas 1 ka 19"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA19:<br><img src=\"/static/jadwal/1ka19.png\" alt=\"Jadwal 1KA19\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka20",
+      "patterns": [
+        "jadwal 1ka20",
+        "jadwal kelas 1ka20",
+        "jadwal kuliah 1ka20",
+        "jadwal perkuliahan 1ka20",
+        "jadwal 1 ka 20",
+        "jadwal kelas 1 ka 20"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA20:<br><img src=\"/static/jadwal/1ka20.png\" alt=\"Jadwal 1KA20\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka21",
+      "patterns": [
+        "jadwal 1ka21",
+        "jadwal kelas 1ka21",
+        "jadwal kuliah 1ka21",
+        "jadwal perkuliahan 1ka21",
+        "jadwal 1 ka 21",
+        "jadwal kelas 1 ka 21"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA21:<br><img src=\"/static/jadwal/1ka21.png\" alt=\"Jadwal 1KA21\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka22",
+      "patterns": [
+        "jadwal 1ka22",
+        "jadwal kelas 1ka22",
+        "jadwal kuliah 1ka22",
+        "jadwal perkuliahan 1ka22",
+        "jadwal 1 ka 22",
+        "jadwal kelas 1 ka 22"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA22:<br><img src=\"/static/jadwal/1ka22.png\" alt=\"Jadwal 1KA22\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka23",
+      "patterns": [
+        "jadwal 1ka23",
+        "jadwal kelas 1ka23",
+        "jadwal kuliah 1ka23",
+        "jadwal perkuliahan 1ka23",
+        "jadwal 1 ka 23",
+        "jadwal kelas 1 ka 23"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA23:<br><img src=\"/static/jadwal/1ka23.png\" alt=\"Jadwal 1KA23\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka24",
+      "patterns": [
+        "jadwal 1ka24",
+        "jadwal kelas 1ka24",
+        "jadwal kuliah 1ka24",
+        "jadwal perkuliahan 1ka24",
+        "jadwal 1 ka 24",
+        "jadwal kelas 1 ka 24"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA24:<br><img src=\"/static/jadwal/1ka24.png\" alt=\"Jadwal 1KA24\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka25",
+      "patterns": [
+        "jadwal 1ka25",
+        "jadwal kelas 1ka25",
+        "jadwal kuliah 1ka25",
+        "jadwal perkuliahan 1ka25",
+        "jadwal 1 ka 25",
+        "jadwal kelas 1 ka 25"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA25:<br><img src=\"/static/jadwal/1ka25.png\" alt=\"Jadwal 1KA25\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka26",
+      "patterns": [
+        "jadwal 1ka26",
+        "jadwal kelas 1ka26",
+        "jadwal kuliah 1ka26",
+        "jadwal perkuliahan 1ka26",
+        "jadwal 1 ka 26",
+        "jadwal kelas 1 ka 26"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA26:<br><img src=\"/static/jadwal/1ka26.png\" alt=\"Jadwal 1KA26\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka27",
+      "patterns": [
+        "jadwal 1ka27",
+        "jadwal kelas 1ka27",
+        "jadwal kuliah 1ka27",
+        "jadwal perkuliahan 1ka27",
+        "jadwal 1 ka 27",
+        "jadwal kelas 1 ka 27"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA27:<br><img src=\"/static/jadwal/1ka27.png\" alt=\"Jadwal 1KA27\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka28",
+      "patterns": [
+        "jadwal 1ka28",
+        "jadwal kelas 1ka28",
+        "jadwal kuliah 1ka28",
+        "jadwal perkuliahan 1ka28",
+        "jadwal 1 ka 28",
+        "jadwal kelas 1 ka 28"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA28:<br><img src=\"/static/jadwal/1ka28.png\" alt=\"Jadwal 1KA28\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka29",
+      "patterns": [
+        "jadwal 1ka29",
+        "jadwal kelas 1ka29",
+        "jadwal kuliah 1ka29",
+        "jadwal perkuliahan 1ka29",
+        "jadwal 1 ka 29",
+        "jadwal kelas 1 ka 29"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA29:<br><img src=\"/static/jadwal/1ka29.png\" alt=\"Jadwal 1KA29\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka30",
+      "patterns": [
+        "jadwal 1ka30",
+        "jadwal kelas 1ka30",
+        "jadwal kuliah 1ka30",
+        "jadwal perkuliahan 1ka30",
+        "jadwal 1 ka 30",
+        "jadwal kelas 1 ka 30"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA30:<br><img src=\"/static/jadwal/1ka30.png\" alt=\"Jadwal 1KA30\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka31",
+      "patterns": [
+        "jadwal 1ka31",
+        "jadwal kelas 1ka31",
+        "jadwal kuliah 1ka31",
+        "jadwal perkuliahan 1ka31",
+        "jadwal 1 ka 31",
+        "jadwal kelas 1 ka 31"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA31:<br><img src=\"/static/jadwal/1ka31.png\" alt=\"Jadwal 1KA31\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka32",
+      "patterns": [
+        "jadwal 1ka32",
+        "jadwal kelas 1ka32",
+        "jadwal kuliah 1ka32",
+        "jadwal perkuliahan 1ka32",
+        "jadwal 1 ka 32",
+        "jadwal kelas 1 ka 32"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA32:<br><img src=\"/static/jadwal/1ka32.png\" alt=\"Jadwal 1KA32\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka33",
+      "patterns": [
+        "jadwal 1ka33",
+        "jadwal kelas 1ka33",
+        "jadwal kuliah 1ka33",
+        "jadwal perkuliahan 1ka33",
+        "jadwal 1 ka 33",
+        "jadwal kelas 1 ka 33"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA33:<br><img src=\"/static/jadwal/1ka33.png\" alt=\"Jadwal 1KA33\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+      "tag": "jadwal_1ka34",
+      "patterns": [
+        "jadwal 1ka34",
+        "jadwal kelas 1ka34",
+        "jadwal kuliah 1ka34",
+        "jadwal perkuliahan 1ka34",
+        "jadwal 1 ka 34",
+        "jadwal kelas 1 ka 34"
+      ],
+      "responses": [
+        "Berikut jadwal kelas 1KA34:<br><img src=\"/static/jadwal/1ka34.png\" alt=\"Jadwal 1KA34\" style=\"max-width:100%;border-radius:12px;\">"
+      ]
+    },
+    {
+  "tag": "jadwal_2ka01",
+  "patterns": [
+    "jadwal 2ka01",
+    "jadwal kelas 2ka01",
+    "jadwal kuliah 2ka01",
+    "jadwal perkuliahan 2ka01",
+    "jadwal 2 ka 01",
+    "jadwal kelas 2 ka 01"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA01:<br><img src=\"/static/jadwal/2ka01.png\" alt=\"Jadwal 2KA01\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka02",
+  "patterns": [
+    "jadwal 2ka02",
+    "jadwal kelas 2ka02",
+    "jadwal kuliah 2ka02",
+    "jadwal perkuliahan 2ka02",
+    "jadwal 2 ka 02",
+    "jadwal kelas 2 ka 02"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA02:<br><img src=\"/static/jadwal/2ka02.png\" alt=\"Jadwal 2KA02\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka03",
+  "patterns": [
+    "jadwal 2ka03",
+    "jadwal kelas 2ka03",
+    "jadwal kuliah 2ka03",
+    "jadwal perkuliahan 2ka03",
+    "jadwal 2 ka 03",
+    "jadwal kelas 2 ka 03"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA03:<br><img src=\"/static/jadwal/2ka03.png\" alt=\"Jadwal 2KA03\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka04",
+  "patterns": [
+    "jadwal 2ka04",
+    "jadwal kelas 2ka04",
+    "jadwal kuliah 2ka04",
+    "jadwal perkuliahan 2ka04",
+    "jadwal 2 ka 04",
+    "jadwal kelas 2 ka 04"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA04:<br><img src=\"/static/jadwal/2ka04.png\" alt=\"Jadwal 2KA04\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka05",
+  "patterns": [
+    "jadwal 2ka05",
+    "jadwal kelas 2ka05",
+    "jadwal kuliah 2ka05",
+    "jadwal perkuliahan 2ka05",
+    "jadwal 2 ka 05",
+    "jadwal kelas 2 ka 05"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA05:<br><img src=\"/static/jadwal/2ka05.png\" alt=\"Jadwal 2KA05\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka06",
+  "patterns": [
+    "jadwal 2ka06",
+    "jadwal kelas 2ka06",
+    "jadwal kuliah 2ka06",
+    "jadwal perkuliahan 2ka06",
+    "jadwal 2 ka 06",
+    "jadwal kelas 2 ka 06"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA06:<br><img src=\"/static/jadwal/2ka06.png\" alt=\"Jadwal 2KA06\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka07",
+  "patterns": [
+    "jadwal 2ka07",
+    "jadwal kelas 2ka07",
+    "jadwal kuliah 2ka07",
+    "jadwal perkuliahan 2ka07",
+    "jadwal 2 ka 07",
+    "jadwal kelas 2 ka 07"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA07:<br><img src=\"/static/jadwal/2ka07.png\" alt=\"Jadwal 2KA07\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka08",
+  "patterns": [
+    "jadwal 2ka08",
+    "jadwal kelas 2ka08",
+    "jadwal kuliah 2ka08",
+    "jadwal perkuliahan 2ka08",
+    "jadwal 2 ka 08",
+    "jadwal kelas 2 ka 08"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA08:<br><img src=\"/static/jadwal/2ka08.png\" alt=\"Jadwal 2KA08\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka09",
+  "patterns": [
+    "jadwal 2ka09",
+    "jadwal kelas 2ka09",
+    "jadwal kuliah 2ka09",
+    "jadwal perkuliahan 2ka09",
+    "jadwal 2 ka 09",
+    "jadwal kelas 2 ka 09"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA09:<br><img src=\"/static/jadwal/2ka09.png\" alt=\"Jadwal 2KA09\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka10",
+  "patterns": [
+    "jadwal 2ka10",
+    "jadwal kelas 2ka10",
+    "jadwal kuliah 2ka10",
+    "jadwal perkuliahan 2ka10",
+    "jadwal 2 ka 10",
+    "jadwal kelas 2 ka 10"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA10:<br><img src=\"/static/jadwal/2ka10.png\" alt=\"Jadwal 2KA10\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka11",
+  "patterns": [
+    "jadwal 2ka11",
+    "jadwal kelas 2ka11",
+    "jadwal kuliah 2ka11",
+    "jadwal perkuliahan 2ka11",
+    "jadwal 2 ka 11",
+    "jadwal kelas 2 ka 11"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA11:<br><img src=\"/static/jadwal/2ka11.png\" alt=\"Jadwal 2KA11\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka12",
+  "patterns": [
+    "jadwal 2ka12",
+    "jadwal kelas 2ka12",
+    "jadwal kuliah 2ka12",
+    "jadwal perkuliahan 2ka12",
+    "jadwal 2 ka 12",
+    "jadwal kelas 2 ka 12"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA12:<br><img src=\"/static/jadwal/2ka12.png\" alt=\"Jadwal 2KA12\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka13",
+  "patterns": [
+    "jadwal 2ka13",
+    "jadwal kelas 2ka13",
+    "jadwal kuliah 2ka13",
+    "jadwal perkuliahan 2ka13",
+    "jadwal 2 ka 13",
+    "jadwal kelas 2 ka 13"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA13:<br><img src=\"/static/jadwal/2ka13.png\" alt=\"Jadwal 2KA13\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka14",
+  "patterns": [
+    "jadwal 2ka14",
+    "jadwal kelas 2ka14",
+    "jadwal kuliah 2ka14",
+    "jadwal perkuliahan 2ka14",
+    "jadwal 2 ka 14",
+    "jadwal kelas 2 ka 14"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA14:<br><img src=\"/static/jadwal/2ka14.png\" alt=\"Jadwal 2KA14\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka15",
+  "patterns": [
+    "jadwal 2ka15",
+    "jadwal kelas 2ka15",
+    "jadwal kuliah 2ka15",
+    "jadwal perkuliahan 2ka15",
+    "jadwal 2 ka 15",
+    "jadwal kelas 2 ka 15"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA15:<br><img src=\"/static/jadwal/2ka15.png\" alt=\"Jadwal 2KA15\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka16",
+  "patterns": [
+    "jadwal 2ka16",
+    "jadwal kelas 2ka16",
+    "jadwal kuliah 2ka16",
+    "jadwal perkuliahan 2ka16",
+    "jadwal 2 ka 16",
+    "jadwal kelas 2 ka 16"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA16:<br><img src=\"/static/jadwal/2ka16.png\" alt=\"Jadwal 2KA16\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka17",
+  "patterns": [
+    "jadwal 2ka17",
+    "jadwal kelas 2ka17",
+    "jadwal kuliah 2ka17",
+    "jadwal perkuliahan 2ka17",
+    "jadwal 2 ka 17",
+    "jadwal kelas 2 ka 17"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA17:<br><img src=\"/static/jadwal/2ka17.png\" alt=\"Jadwal 2KA17\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka18",
+  "patterns": [
+    "jadwal 2ka18",
+    "jadwal kelas 2ka18",
+    "jadwal kuliah 2ka18",
+    "jadwal perkuliahan 2ka18",
+    "jadwal 2 ka 18",
+    "jadwal kelas 2 ka 18"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA18:<br><img src=\"/static/jadwal/2ka18.png\" alt=\"Jadwal 2KA18\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka19",
+  "patterns": [
+    "jadwal 2ka19",
+    "jadwal kelas 2ka19",
+    "jadwal kuliah 2ka19",
+    "jadwal perkuliahan 2ka19",
+    "jadwal 2 ka 19",
+    "jadwal kelas 2 ka 19"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA19:<br><img src=\"/static/jadwal/2ka19.png\" alt=\"Jadwal 2KA19\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka20",
+  "patterns": [
+    "jadwal 2ka20",
+    "jadwal kelas 2ka20",
+    "jadwal kuliah 2ka20",
+    "jadwal perkuliahan 2ka20",
+    "jadwal 2 ka 20",
+    "jadwal kelas 2 ka 20"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA20:<br><img src=\"/static/jadwal/2ka20.png\" alt=\"Jadwal 2KA20\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka21",
+  "patterns": [
+    "jadwal 2ka21",
+    "jadwal kelas 2ka21",
+    "jadwal kuliah 2ka21",
+    "jadwal perkuliahan 2ka21",
+    "jadwal 2 ka 21",
+    "jadwal kelas 2 ka 21"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA21:<br><img src=\"/static/jadwal/2ka21.png\" alt=\"Jadwal 2KA21\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka22",
+  "patterns": [
+    "jadwal 2ka22",
+    "jadwal kelas 2ka22",
+    "jadwal kuliah 2ka22",
+    "jadwal perkuliahan 2ka22",
+    "jadwal 2 ka 22",
+    "jadwal kelas 2 ka 22"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA22:<br><img src=\"/static/jadwal/2ka22.png\" alt=\"Jadwal 2KA22\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka23",
+  "patterns": [
+    "jadwal 2ka23",
+    "jadwal kelas 2ka23",
+    "jadwal kuliah 2ka23",
+    "jadwal perkuliahan 2ka23",
+    "jadwal 2 ka 23",
+    "jadwal kelas 2 ka 23"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA23:<br><img src=\"/static/jadwal/2ka23.png\" alt=\"Jadwal 2KA23\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka24",
+  "patterns": [
+    "jadwal 2ka24",
+    "jadwal kelas 2ka24",
+    "jadwal kuliah 2ka24",
+    "jadwal perkuliahan 2ka24",
+    "jadwal 2 ka 24",
+    "jadwal kelas 2 ka 24"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA24:<br><img src=\"/static/jadwal/2ka24.png\" alt=\"Jadwal 2KA24\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka25",
+  "patterns": [
+    "jadwal 2ka25",
+    "jadwal kelas 2ka25",
+    "jadwal kuliah 2ka25",
+    "jadwal perkuliahan 2ka25",
+    "jadwal 2 ka 25",
+    "jadwal kelas 2 ka 25"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA25:<br><img src=\"/static/jadwal/2ka25.png\" alt=\"Jadwal 2KA25\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka26",
+  "patterns": [
+    "jadwal 2ka26",
+    "jadwal kelas 2ka26",
+    "jadwal kuliah 2ka26",
+    "jadwal perkuliahan 2ka26",
+    "jadwal 2 ka 26",
+    "jadwal kelas 2 ka 26"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA26:<br><img src=\"/static/jadwal/2ka26.png\" alt=\"Jadwal 2KA26\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka27",
+  "patterns": [
+    "jadwal 2ka27",
+    "jadwal kelas 2ka27",
+    "jadwal kuliah 2ka27",
+    "jadwal perkuliahan 2ka27",
+    "jadwal 2 ka 27",
+    "jadwal kelas 2 ka 27"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA27:<br><img src=\"/static/jadwal/2ka27.png\" alt=\"Jadwal 2KA27\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka28",
+  "patterns": [
+    "jadwal 2ka28",
+    "jadwal kelas 2ka28",
+    "jadwal kuliah 2ka28",
+    "jadwal perkuliahan 2ka28",
+    "jadwal 2 ka 28",
+    "jadwal kelas 2 ka 28"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA28:<br><img src=\"/static/jadwal/2ka28.png\" alt=\"Jadwal 2KA28\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka29",
+  "patterns": [
+    "jadwal 2ka29",
+    "jadwal kelas 2ka29",
+    "jadwal kuliah 2ka29",
+    "jadwal perkuliahan 2ka29",
+    "jadwal 2 ka 29",
+    "jadwal kelas 2 ka 29"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA29:<br><img src=\"/static/jadwal/2ka29.png\" alt=\"Jadwal 2KA29\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka30",
+  "patterns": [
+    "jadwal 2ka30",
+    "jadwal kelas 2ka30",
+    "jadwal kuliah 2ka30",
+    "jadwal perkuliahan 2ka30",
+    "jadwal 2 ka 30",
+    "jadwal kelas 2 ka 30"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA30:<br><img src=\"/static/jadwal/2ka30.png\" alt=\"Jadwal 2KA30\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka31",
+  "patterns": [
+    "jadwal 2ka31",
+    "jadwal kelas 2ka31",
+    "jadwal kuliah 2ka31",
+    "jadwal perkuliahan 2ka31",
+    "jadwal 2 ka 31",
+    "jadwal kelas 2 ka 31"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA31:<br><img src=\"/static/jadwal/2ka31.png\" alt=\"Jadwal 2KA31\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka32",
+  "patterns": [
+    "jadwal 2ka32",
+    "jadwal kelas 2ka32",
+    "jadwal kuliah 2ka32",
+    "jadwal perkuliahan 2ka32",
+    "jadwal 2 ka 32",
+    "jadwal kelas 2 ka 32"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA32:<br><img src=\"/static/jadwal/2ka32.png\" alt=\"Jadwal 2KA32\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka33",
+  "patterns": [
+    "jadwal 2ka33",
+    "jadwal kelas 2ka33",
+    "jadwal kuliah 2ka33",
+    "jadwal perkuliahan 2ka33",
+    "jadwal 2 ka 33",
+    "jadwal kelas 2 ka 33"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA33:<br><img src=\"/static/jadwal/2ka33.png\" alt=\"Jadwal 2KA33\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka34",
+  "patterns": [
+    "jadwal 2ka34",
+    "jadwal kelas 2ka34",
+    "jadwal kuliah 2ka34",
+    "jadwal perkuliahan 2ka34",
+    "jadwal 2 ka 34",
+    "jadwal kelas 2 ka 34"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA34:<br><img src=\"/static/jadwal/2ka34.png\" alt=\"Jadwal 2KA34\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_2ka35",
+  "patterns": [
+    "jadwal 2ka35",
+    "jadwal kelas 2ka35",
+    "jadwal kuliah 2ka35",
+    "jadwal perkuliahan 2ka35",
+    "jadwal 2 ka 35",
+    "jadwal kelas 2 ka 35"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 2KA35:<br><img src=\"/static/jadwal/2ka35.png\" alt=\"Jadwal 2KA35\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka01",
+  "patterns": [
+    "jadwal 3ka01",
+    "jadwal kelas 3ka01",
+    "jadwal kuliah 3ka01",
+    "jadwal perkuliahan 3ka01",
+    "jadwal 3 ka 01",
+    "jadwal kelas 3 ka 01"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA01:<br><img src=\"/static/jadwal/3ka01.png\" alt=\"Jadwal 3KA01\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka02",
+  "patterns": [
+    "jadwal 3ka02",
+    "jadwal kelas 3ka02",
+    "jadwal kuliah 3ka02",
+    "jadwal perkuliahan 3ka02",
+    "jadwal 3 ka 02",
+    "jadwal kelas 3 ka 02"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA02:<br><img src=\"/static/jadwal/3ka02.png\" alt=\"Jadwal 3KA02\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka03",
+  "patterns": [
+    "jadwal 3ka03",
+    "jadwal kelas 3ka03",
+    "jadwal kuliah 3ka03",
+    "jadwal perkuliahan 3ka03",
+    "jadwal 3 ka 03",
+    "jadwal kelas 3 ka 03"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA03:<br><img src=\"/static/jadwal/3ka03.png\" alt=\"Jadwal 3KA03\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka04",
+  "patterns": [
+    "jadwal 3ka04",
+    "jadwal kelas 3ka04",
+    "jadwal kuliah 3ka04",
+    "jadwal perkuliahan 3ka04",
+    "jadwal 3 ka 04",
+    "jadwal kelas 3 ka 04"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA04:<br><img src=\"/static/jadwal/3ka04.png\" alt=\"Jadwal 3KA04\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka05",
+  "patterns": [
+    "jadwal 3ka05",
+    "jadwal kelas 3ka05",
+    "jadwal kuliah 3ka05",
+    "jadwal perkuliahan 3ka05",
+    "jadwal 3 ka 05",
+    "jadwal kelas 3 ka 05"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA05:<br><img src=\"/static/jadwal/3ka05.png\" alt=\"Jadwal 3KA05\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka06",
+  "patterns": [
+    "jadwal 3ka06",
+    "jadwal kelas 3ka06",
+    "jadwal kuliah 3ka06",
+    "jadwal perkuliahan 3ka06",
+    "jadwal 3 ka 06",
+    "jadwal kelas 3 ka 06"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA06:<br><img src=\"/static/jadwal/3ka06.png\" alt=\"Jadwal 3KA06\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka07",
+  "patterns": [
+    "jadwal 3ka07",
+    "jadwal kelas 3ka07",
+    "jadwal kuliah 3ka07",
+    "jadwal perkuliahan 3ka07",
+    "jadwal 3 ka 07",
+    "jadwal kelas 3 ka 07"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA07:<br><img src=\"/static/jadwal/3ka07.png\" alt=\"Jadwal 3KA07\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka08",
+  "patterns": [
+    "jadwal 3ka08",
+    "jadwal kelas 3ka08",
+    "jadwal kuliah 3ka08",
+    "jadwal perkuliahan 3ka08",
+    "jadwal 3 ka 08",
+    "jadwal kelas 3 ka 08"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA08:<br><img src=\"/static/jadwal/3ka08.png\" alt=\"Jadwal 3KA08\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka09",
+  "patterns": [
+    "jadwal 3ka09",
+    "jadwal kelas 3ka09",
+    "jadwal kuliah 3ka09",
+    "jadwal perkuliahan 3ka09",
+    "jadwal 3 ka 09",
+    "jadwal kelas 3 ka 09"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA09:<br><img src=\"/static/jadwal/3ka09.png\" alt=\"Jadwal 3KA09\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka10",
+  "patterns": [
+    "jadwal 3ka10",
+    "jadwal kelas 3ka10",
+    "jadwal kuliah 3ka10",
+    "jadwal perkuliahan 3ka10",
+    "jadwal 3 ka 10",
+    "jadwal kelas 3 ka 10"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA10:<br><img src=\"/static/jadwal/3ka10.png\" alt=\"Jadwal 3KA10\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka11",
+  "patterns": [
+    "jadwal 3ka11",
+    "jadwal kelas 3ka11",
+    "jadwal kuliah 3ka11",
+    "jadwal perkuliahan 3ka11",
+    "jadwal 3 ka 11",
+    "jadwal kelas 3 ka 11"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA11:<br><img src=\"/static/jadwal/3ka11.png\" alt=\"Jadwal 3KA11\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka12",
+  "patterns": [
+    "jadwal 3ka12",
+    "jadwal kelas 3ka12",
+    "jadwal kuliah 3ka12",
+    "jadwal perkuliahan 3ka12",
+    "jadwal 3 ka 12",
+    "jadwal kelas 3 ka 12"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA12:<br><img src=\"/static/jadwal/3ka12.png\" alt=\"Jadwal 3KA12\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka13",
+  "patterns": [
+    "jadwal 3ka13",
+    "jadwal kelas 3ka13",
+    "jadwal kuliah 3ka13",
+    "jadwal perkuliahan 3ka13",
+    "jadwal 3 ka 13",
+    "jadwal kelas 3 ka 13"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA13:<br><img src=\"/static/jadwal/3ka13.png\" alt=\"Jadwal 3KA13\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka14",
+  "patterns": [
+    "jadwal 3ka14",
+    "jadwal kelas 3ka14",
+    "jadwal kuliah 3ka14",
+    "jadwal perkuliahan 3ka14",
+    "jadwal 3 ka 14",
+    "jadwal kelas 3 ka 14"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA14:<br><img src=\"/static/jadwal/3ka14.png\" alt=\"Jadwal 3KA14\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka15",
+  "patterns": [
+    "jadwal 3ka15",
+    "jadwal kelas 3ka15",
+    "jadwal kuliah 3ka15",
+    "jadwal perkuliahan 3ka15",
+    "jadwal 3 ka 15",
+    "jadwal kelas 3 ka 15"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA15:<br><img src=\"/static/jadwal/3ka15.png\" alt=\"Jadwal 3KA15\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka16",
+  "patterns": [
+    "jadwal 3ka16",
+    "jadwal kelas 3ka16",
+    "jadwal kuliah 3ka16",
+    "jadwal perkuliahan 3ka16",
+    "jadwal 3 ka 16",
+    "jadwal kelas 3 ka 16"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA16:<br><img src=\"/static/jadwal/3ka16.png\" alt=\"Jadwal 3KA16\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka17",
+  "patterns": [
+    "jadwal 3ka17",
+    "jadwal kelas 3ka17",
+    "jadwal kuliah 3ka17",
+    "jadwal perkuliahan 3ka17",
+    "jadwal 3 ka 17",
+    "jadwal kelas 3 ka 17"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA17:<br><img src=\"/static/jadwal/3ka17.png\" alt=\"Jadwal 3KA17\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka18",
+  "patterns": [
+    "jadwal 3ka18",
+    "jadwal kelas 3ka18",
+    "jadwal kuliah 3ka18",
+    "jadwal perkuliahan 3ka18",
+    "jadwal 3 ka 18",
+    "jadwal kelas 3 ka 18"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA18:<br><img src=\"/static/jadwal/3ka18.png\" alt=\"Jadwal 3KA18\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka19",
+  "patterns": [
+    "jadwal 3ka19",
+    "jadwal kelas 3ka19",
+    "jadwal kuliah 3ka19",
+    "jadwal perkuliahan 3ka19",
+    "jadwal 3 ka 19",
+    "jadwal kelas 3 ka 19"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA19:<br><img src=\"/static/jadwal/3ka19.png\" alt=\"Jadwal 3KA19\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka20",
+  "patterns": [
+    "jadwal 3ka20",
+    "jadwal kelas 3ka20",
+    "jadwal kuliah 3ka20",
+    "jadwal perkuliahan 3ka20",
+    "jadwal 3 ka 20",
+    "jadwal kelas 3 ka 20"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA20:<br><img src=\"/static/jadwal/3ka20.png\" alt=\"Jadwal 3KA20\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka21",
+  "patterns": [
+    "jadwal 3ka21",
+    "jadwal kelas 3ka21",
+    "jadwal kuliah 3ka21",
+    "jadwal perkuliahan 3ka21",
+    "jadwal 3 ka 21",
+    "jadwal kelas 3 ka 21"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA21:<br><img src=\"/static/jadwal/3ka21.png\" alt=\"Jadwal 3KA21\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka22",
+  "patterns": [
+    "jadwal 3ka22",
+    "jadwal kelas 3ka22",
+    "jadwal kuliah 3ka22",
+    "jadwal perkuliahan 3ka22",
+    "jadwal 3 ka 22",
+    "jadwal kelas 3 ka 22"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA22:<br><img src=\"/static/jadwal/3ka22.png\" alt=\"Jadwal 3KA22\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka23",
+  "patterns": [
+    "jadwal 3ka23",
+    "jadwal kelas 3ka23",
+    "jadwal kuliah 3ka23",
+    "jadwal perkuliahan 3ka23",
+    "jadwal 3 ka 23",
+    "jadwal kelas 3 ka 23"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA23:<br><img src=\"/static/jadwal/3ka23.png\" alt=\"Jadwal 3KA23\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka24",
+  "patterns": [
+    "jadwal 3ka24",
+    "jadwal kelas 3ka24",
+    "jadwal kuliah 3ka24",
+    "jadwal perkuliahan 3ka24",
+    "jadwal 3 ka 24",
+    "jadwal kelas 3 ka 24"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA24:<br><img src=\"/static/jadwal/3ka24.png\" alt=\"Jadwal 3KA24\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka25",
+  "patterns": [
+    "jadwal 3ka25",
+    "jadwal kelas 3ka25",
+    "jadwal kuliah 3ka25",
+    "jadwal perkuliahan 3ka25",
+    "jadwal 3 ka 25",
+    "jadwal kelas 3 ka 25"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA25:<br><img src=\"/static/jadwal/3ka25.png\" alt=\"Jadwal 3KA25\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka26",
+  "patterns": [
+    "jadwal 3ka26",
+    "jadwal kelas 3ka26",
+    "jadwal kuliah 3ka26",
+    "jadwal perkuliahan 3ka26",
+    "jadwal 3 ka 26",
+    "jadwal kelas 3 ka 26"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA26:<br><img src=\"/static/jadwal/3ka26.png\" alt=\"Jadwal 3KA26\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka27",
+  "patterns": [
+    "jadwal 3ka27",
+    "jadwal kelas 3ka27",
+    "jadwal kuliah 3ka27",
+    "jadwal perkuliahan 3ka27",
+    "jadwal 3 ka 27",
+    "jadwal kelas 3 ka 27"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA27:<br><img src=\"/static/jadwal/3ka27.png\" alt=\"Jadwal 3KA27\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka28",
+  "patterns": [
+    "jadwal 3ka28",
+    "jadwal kelas 3ka28",
+    "jadwal kuliah 3ka28",
+    "jadwal perkuliahan 3ka28",
+    "jadwal 3 ka 28",
+    "jadwal kelas 3 ka 28"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA28:<br><img src=\"/static/jadwal/3ka28.png\" alt=\"Jadwal 3KA28\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka29",
+  "patterns": [
+    "jadwal 3ka29",
+    "jadwal kelas 3ka29",
+    "jadwal kuliah 3ka29",
+    "jadwal perkuliahan 3ka29",
+    "jadwal 3 ka 29",
+    "jadwal kelas 3 ka 29"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA29:<br><img src=\"/static/jadwal/3ka29.png\" alt=\"Jadwal 3KA29\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka30",
+  "patterns": [
+    "jadwal 3ka30",
+    "jadwal kelas 3ka30",
+    "jadwal kuliah 3ka30",
+    "jadwal perkuliahan 3ka30",
+    "jadwal 3 ka 30",
+    "jadwal kelas 3 ka 30"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA30:<br><img src=\"/static/jadwal/3ka30.png\" alt=\"Jadwal 3KA30\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka31",
+  "patterns": [
+    "jadwal 3ka31",
+    "jadwal kelas 3ka31",
+    "jadwal kuliah 3ka31",
+    "jadwal perkuliahan 3ka31",
+    "jadwal 3 ka 31",
+    "jadwal kelas 3 ka 31"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA31:<br><img src=\"/static/jadwal/3ka31.png\" alt=\"Jadwal 3KA31\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka32",
+  "patterns": [
+    "jadwal 3ka32",
+    "jadwal kelas 3ka32",
+    "jadwal kuliah 3ka32",
+    "jadwal perkuliahan 3ka32",
+    "jadwal 3 ka 32",
+    "jadwal kelas 3 ka 32"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA32:<br><img src=\"/static/jadwal/3ka32.png\" alt=\"Jadwal 3KA32\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka33",
+  "patterns": [
+    "jadwal 3ka33",
+    "jadwal kelas 3ka33",
+    "jadwal kuliah 3ka33",
+    "jadwal perkuliahan 3ka33",
+    "jadwal 3 ka 33",
+    "jadwal kelas 3 ka 33"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA33:<br><img src=\"/static/jadwal/3ka33.png\" alt=\"Jadwal 3KA33\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka34",
+  "patterns": [
+    "jadwal 3ka34",
+    "jadwal kelas 3ka34",
+    "jadwal kuliah 3ka34",
+    "jadwal perkuliahan 3ka34",
+    "jadwal 3 ka 34",
+    "jadwal kelas 3 ka 34"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA34:<br><img src=\"/static/jadwal/3ka34.png\" alt=\"Jadwal 3KA34\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka35",
+  "patterns": [
+    "jadwal 3ka35",
+    "jadwal kelas 3ka35",
+    "jadwal kuliah 3ka35",
+    "jadwal perkuliahan 3ka35",
+    "jadwal 3 ka 35",
+    "jadwal kelas 3 ka 35"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA35:<br><img src=\"/static/jadwal/3ka35.png\" alt=\"Jadwal 3KA35\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_3ka36",
+  "patterns": [
+    "jadwal 3ka36",
+    "jadwal kelas 3ka36",
+    "jadwal kuliah 3ka36",
+    "jadwal perkuliahan 3ka36",
+    "jadwal 3 ka 36",
+    "jadwal kelas 3 ka 36"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 3KA36:<br><img src=\"/static/jadwal/3ka36.png\" alt=\"Jadwal 3KA36\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka01",
+  "patterns": [
+    "jadwal 4ka01",
+    "jadwal kelas 4ka01",
+    "jadwal kuliah 4ka01",
+    "jadwal perkuliahan 4ka01",
+    "jadwal 4 ka 01",
+    "jadwal kelas 4 ka 01"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA01:<br><img src=\"/static/jadwal/4ka01.png\" alt=\"Jadwal 4KA01\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka02",
+  "patterns": [
+    "jadwal 4ka02",
+    "jadwal kelas 4ka02",
+    "jadwal kuliah 4ka02",
+    "jadwal perkuliahan 4ka02",
+    "jadwal 4 ka 02",
+    "jadwal kelas 4 ka 02"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA02:<br><img src=\"/static/jadwal/4ka02.png\" alt=\"Jadwal 4KA02\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka03",
+  "patterns": [
+    "jadwal 4ka03",
+    "jadwal kelas 4ka03",
+    "jadwal kuliah 4ka03",
+    "jadwal perkuliahan 4ka03",
+    "jadwal 4 ka 03",
+    "jadwal kelas 4 ka 03"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA03:<br><img src=\"/static/jadwal/4ka03.png\" alt=\"Jadwal 4KA03\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka04",
+  "patterns": [
+    "jadwal 4ka04",
+    "jadwal kelas 4ka04",
+    "jadwal kuliah 4ka04",
+    "jadwal perkuliahan 4ka04",
+    "jadwal 4 ka 04",
+    "jadwal kelas 4 ka 04"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA04:<br><img src=\"/static/jadwal/4ka04.png\" alt=\"Jadwal 4KA04\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka05",
+  "patterns": [
+    "jadwal 4ka05",
+    "jadwal kelas 4ka05",
+    "jadwal kuliah 4ka05",
+    "jadwal perkuliahan 4ka05",
+    "jadwal 4 ka 05",
+    "jadwal kelas 4 ka 05"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA05:<br><img src=\"/static/jadwal/4ka05.png\" alt=\"Jadwal 4KA05\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka06",
+  "patterns": [
+    "jadwal 4ka06",
+    "jadwal kelas 4ka06",
+    "jadwal kuliah 4ka06",
+    "jadwal perkuliahan 4ka06",
+    "jadwal 4 ka 06",
+    "jadwal kelas 4 ka 06"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA06:<br><img src=\"/static/jadwal/4ka06.png\" alt=\"Jadwal 4KA06\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka07",
+  "patterns": [
+    "jadwal 4ka07",
+    "jadwal kelas 4ka07",
+    "jadwal kuliah 4ka07",
+    "jadwal perkuliahan 4ka07",
+    "jadwal 4 ka 07",
+    "jadwal kelas 4 ka 07"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA07:<br><img src=\"/static/jadwal/4ka07.png\" alt=\"Jadwal 4KA07\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka08",
+  "patterns": [
+    "jadwal 4ka08",
+    "jadwal kelas 4ka08",
+    "jadwal kuliah 4ka08",
+    "jadwal perkuliahan 4ka08",
+    "jadwal 4 ka 08",
+    "jadwal kelas 4 ka 08"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA08:<br><img src=\"/static/jadwal/4ka08.png\" alt=\"Jadwal 4KA08\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka09",
+  "patterns": [
+    "jadwal 4ka09",
+    "jadwal kelas 4ka09",
+    "jadwal kuliah 4ka09",
+    "jadwal perkuliahan 4ka09",
+    "jadwal 4 ka 09",
+    "jadwal kelas 4 ka 09"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA09:<br><img src=\"/static/jadwal/4ka09.png\" alt=\"Jadwal 4KA09\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka10",
+  "patterns": [
+    "jadwal 4ka10",
+    "jadwal kelas 4ka10",
+    "jadwal kuliah 4ka10",
+    "jadwal perkuliahan 4ka10",
+    "jadwal 4 ka 10",
+    "jadwal kelas 4 ka 10"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA10:<br><img src=\"/static/jadwal/4ka10.png\" alt=\"Jadwal 4KA10\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka11",
+  "patterns": [
+    "jadwal 4ka11",
+    "jadwal kelas 4ka11",
+    "jadwal kuliah 4ka11",
+    "jadwal perkuliahan 4ka11",
+    "jadwal 4 ka 11",
+    "jadwal kelas 4 ka 11"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA11:<br><img src=\"/static/jadwal/4ka11.png\" alt=\"Jadwal 4KA11\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka12",
+  "patterns": [
+    "jadwal 4ka12",
+    "jadwal kelas 4ka12",
+    "jadwal kuliah 4ka12",
+    "jadwal perkuliahan 4ka12",
+    "jadwal 4 ka 12",
+    "jadwal kelas 4 ka 12"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA12:<br><img src=\"/static/jadwal/4ka12.png\" alt=\"Jadwal 4KA12\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka13",
+  "patterns": [
+    "jadwal 4ka13",
+    "jadwal kelas 4ka13",
+    "jadwal kuliah 4ka13",
+    "jadwal perkuliahan 4ka13",
+    "jadwal 4 ka 13",
+    "jadwal kelas 4 ka 13"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA13:<br><img src=\"/static/jadwal/4ka13.png\" alt=\"Jadwal 4KA13\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka14",
+  "patterns": [
+    "jadwal 4ka14",
+    "jadwal kelas 4ka14",
+    "jadwal kuliah 4ka14",
+    "jadwal perkuliahan 4ka14",
+    "jadwal 4 ka 14",
+    "jadwal kelas 4 ka 14"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA14:<br><img src=\"/static/jadwal/4ka14.png\" alt=\"Jadwal 4KA14\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka15",
+  "patterns": [
+    "jadwal 4ka15",
+    "jadwal kelas 4ka15",
+    "jadwal kuliah 4ka15",
+    "jadwal perkuliahan 4ka15",
+    "jadwal 4 ka 15",
+    "jadwal kelas 4 ka 15"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA15:<br><img src=\"/static/jadwal/4ka15.png\" alt=\"Jadwal 4KA15\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka16",
+  "patterns": [
+    "jadwal 4ka16",
+    "jadwal kelas 4ka16",
+    "jadwal kuliah 4ka16",
+    "jadwal perkuliahan 4ka16",
+    "jadwal 4 ka 16",
+    "jadwal kelas 4 ka 16"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA16:<br><img src=\"/static/jadwal/4ka16.png\" alt=\"Jadwal 4KA16\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka17",
+  "patterns": [
+    "jadwal 4ka17",
+    "jadwal kelas 4ka17",
+    "jadwal kuliah 4ka17",
+    "jadwal perkuliahan 4ka17",
+    "jadwal 4 ka 17",
+    "jadwal kelas 4 ka 17"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA17:<br><img src=\"/static/jadwal/4ka17.png\" alt=\"Jadwal 4KA17\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka18",
+  "patterns": [
+    "jadwal 4ka18",
+    "jadwal kelas 4ka18",
+    "jadwal kuliah 4ka18",
+    "jadwal perkuliahan 4ka18",
+    "jadwal 4 ka 18",
+    "jadwal kelas 4 ka 18"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA18:<br><img src=\"/static/jadwal/4ka18.png\" alt=\"Jadwal 4KA18\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka19",
+  "patterns": [
+    "jadwal 4ka19",
+    "jadwal kelas 4ka19",
+    "jadwal kuliah 4ka19",
+    "jadwal perkuliahan 4ka19",
+    "jadwal 4 ka 19",
+    "jadwal kelas 4 ka 19"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA19:<br><img src=\"/static/jadwal/4ka19.png\" alt=\"Jadwal 4KA19\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka20",
+  "patterns": [
+    "jadwal 4ka20",
+    "jadwal kelas 4ka20",
+    "jadwal kuliah 4ka20",
+    "jadwal perkuliahan 4ka20",
+    "jadwal 4 ka 20",
+    "jadwal kelas 4 ka 20"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA20:<br><img src=\"/static/jadwal/4ka20.png\" alt=\"Jadwal 4KA20\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka21",
+  "patterns": [
+    "jadwal 4ka21",
+    "jadwal kelas 4ka21",
+    "jadwal kuliah 4ka21",
+    "jadwal perkuliahan 4ka21",
+    "jadwal 4 ka 21",
+    "jadwal kelas 4 ka 21"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA21:<br><img src=\"/static/jadwal/4ka21.png\" alt=\"Jadwal 4KA21\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka22",
+  "patterns": [
+    "jadwal 4ka22",
+    "jadwal kelas 4ka22",
+    "jadwal kuliah 4ka22",
+    "jadwal perkuliahan 4ka22",
+    "jadwal 4 ka 22",
+    "jadwal kelas 4 ka 22"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA22:<br><img src=\"/static/jadwal/4ka22.png\" alt=\"Jadwal 4KA22\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka23",
+  "patterns": [
+    "jadwal 4ka23",
+    "jadwal kelas 4ka23",
+    "jadwal kuliah 4ka23",
+    "jadwal perkuliahan 4ka23",
+    "jadwal 4 ka 23",
+    "jadwal kelas 4 ka 23"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA23:<br><img src=\"/static/jadwal/4ka23.png\" alt=\"Jadwal 4KA23\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka24",
+  "patterns": [
+    "jadwal 4ka24",
+    "jadwal kelas 4ka24",
+    "jadwal kuliah 4ka24",
+    "jadwal perkuliahan 4ka24",
+    "jadwal 4 ka 24",
+    "jadwal kelas 4 ka 24"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA24:<br><img src=\"/static/jadwal/4ka24.png\" alt=\"Jadwal 4KA24\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka25",
+  "patterns": [
+    "jadwal 4ka25",
+    "jadwal kelas 4ka25",
+    "jadwal kuliah 4ka25",
+    "jadwal perkuliahan 4ka25",
+    "jadwal 4 ka 25",
+    "jadwal kelas 4 ka 25"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA25:<br><img src=\"/static/jadwal/4ka25.png\" alt=\"Jadwal 4KA25\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka26",
+  "patterns": [
+    "jadwal 4ka26",
+    "jadwal kelas 4ka26",
+    "jadwal kuliah 4ka26",
+    "jadwal perkuliahan 4ka26",
+    "jadwal 4 ka 26",
+    "jadwal kelas 4 ka 26"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA26:<br><img src=\"/static/jadwal/4ka26.png\" alt=\"Jadwal 4KA26\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka27",
+  "patterns": [
+    "jadwal 4ka27",
+    "jadwal kelas 4ka27",
+    "jadwal kuliah 4ka27",
+    "jadwal perkuliahan 4ka27",
+    "jadwal 4 ka 27",
+    "jadwal kelas 4 ka 27"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA27:<br><img src=\"/static/jadwal/4ka27.png\" alt=\"Jadwal 4KA27\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka28",
+  "patterns": [
+    "jadwal 4ka28",
+    "jadwal kelas 4ka28",
+    "jadwal kuliah 4ka28",
+    "jadwal perkuliahan 4ka28",
+    "jadwal 4 ka 28",
+    "jadwal kelas 4 ka 28"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA28:<br><img src=\"/static/jadwal/4ka28.png\" alt=\"Jadwal 4KA28\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka29",
+  "patterns": [
+    "jadwal 4ka29",
+    "jadwal kelas 4ka29",
+    "jadwal kuliah 4ka29",
+    "jadwal perkuliahan 4ka29",
+    "jadwal 4 ka 29",
+    "jadwal kelas 4 ka 29"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA29:<br><img src=\"/static/jadwal/4ka29.png\" alt=\"Jadwal 4KA29\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka30",
+  "patterns": [
+    "jadwal 4ka30",
+    "jadwal kelas 4ka30",
+    "jadwal kuliah 4ka30",
+    "jadwal perkuliahan 4ka30",
+    "jadwal 4 ka 30",
+    "jadwal kelas 4 ka 30"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA30:<br><img src=\"/static/jadwal/4ka30.png\" alt=\"Jadwal 4KA30\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka31",
+  "patterns": [
+    "jadwal 4ka31",
+    "jadwal kelas 4ka31",
+    "jadwal kuliah 4ka31",
+    "jadwal perkuliahan 4ka31",
+    "jadwal 4 ka 31",
+    "jadwal kelas 4 ka 31"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA31:<br><img src=\"/static/jadwal/4ka31.png\" alt=\"Jadwal 4KA31\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+},
+{
+  "tag": "jadwal_4ka32",
+  "patterns": [
+    "jadwal 4ka32",
+    "jadwal kelas 4ka32",
+    "jadwal kuliah 4ka32",
+    "jadwal perkuliahan 4ka32",
+    "jadwal 4 ka 32",
+    "jadwal kelas 4 ka 32"
+  ],
+  "responses": [
+    "Berikut jadwal kelas 4KA32:<br><img src=\"/static/jadwal/4ka32.png\" alt=\"Jadwal 4KA32\" style=\"max-width:100%;border-radius:12px;\">"
+  ]
+}
+  ]
+}

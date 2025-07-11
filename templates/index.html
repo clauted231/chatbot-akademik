@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Akademik</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #e3f2fd;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-content {
+            width: 100%;
+            max-width: 700px;
+            min-height: 600px;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(94,45,130,0.08);
+            padding: 32px 24px;
+            margin: 32px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .chat-container {
+            margin-top: 16px;
+        }
+        .input-container {
+            margin-top: 24px;
+        }
+        @media (max-width: 768px) {
+            .main-content {
+                max-width: 98vw;
+                padding: 12px 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Konten utama chatbot -->
+    <div class="main-content">
+        <div class="container">
+            <div class="header text-center mb-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Logo" style="height:48px;margin-bottom:8px;">
+                <h1 class="fw-bold" style="color:#5e2d82;">🎓 Chatbot Akademik</h1>
+                <p class="text-muted">Universitas Gunadarma - Sistem Informasi Akademik</p>
+            </div>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="welcome-message text-center mb-4">
+                        <p>👋 Selamat datang di Chatbot Akademik Universitas Gunadarma!</p>
+                        <p>Anda dapat langsung bertanya tanpa membuat percakapan.</p>
+                    </div>
+                </div>
+                <div class="quick-actions d-flex justify-content-center gap-2 mb-3">
+                    <button class="btn btn-light border" onclick="sendQuickMessage('Bagaimana cara melihat jadwal kuliah?')">📅 Jadwal Kuliah</button>
+                    <button class="btn btn-light border" onclick="sendQuickMessage('Bagaimana cara Isi KRS?')">📝 Proses KRS</button>
+                    <button class="btn btn-light border" onclick="sendQuickMessage('Cara cek nilai semester')">📊 Cek Nilai</button>
+                    <button class="btn btn-light border" onclick="sendQuickMessage('Pembayaran UKT')">💳 Pembayaran UKT</button>
+                </div>
+                <div class="typing-indicator" id="typingIndicator" style="display:none;">
+                    <div class="typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="input-container d-flex mt-3">
+                    <input type="text" class="form-control input-field" id="messageInput" placeholder="Ketik pertanyaan Anda di sini..." onkeypress="if(event.key==='Enter'){sendMessage();}">
+                    <button class="btn btn-primary ms-2 send-button" id="sendButton" onclick="sendMessage()">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22,2 15,22 11,13 2,9"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function sendQuickMessage(msg) {
+            const input = document.getElementById('messageInput');
+            input.value = msg;
+            sendMessage();
+        }
+    </script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
